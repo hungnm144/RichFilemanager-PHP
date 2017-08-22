@@ -18,19 +18,11 @@
       "role": "Developer"
     }
   ],
-  "repositories":
-    [
-            {
-                "type": "vcs",
-                "url": "https://github.com/hungnm144/RichFilemanager-PHP"
-            }
-    ],
   "require": {
     "php": ">= 5.4.0",
     "symfony/http-foundation": "2.8.*",
     "illuminate/config": "5.4.*",
-    "illuminate/container": "5.4.*",
-    "servocoder/richfilemanager-php": "dev-master"
+    "illuminate/container": "5.4.*"
   },
   "autoload": {
     "psr-4": {
