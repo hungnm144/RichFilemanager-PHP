@@ -23,7 +23,7 @@ Installation
 ------------
 
 ```sh
-composer require servocoder/richfilemanager-php
+composer require hungnm144/richfilemanager-php
 ```
 
 NOTE: Most likely you won't have to install PHP connector separately. It's sufficient to run composer of the main package.
@@ -37,7 +37,7 @@ RichFilemanager [composer.json](https://github.com/servocoder/RichFilemanager/bl
 ```json
 {
   "require": {
-    "servocoder/richfilemanager-php": "*",
+    "hungnm144/richfilemanager-php": "*",
     "aws/aws-sdk-php": "^3.18.0"
   }
 }
