@@ -56,13 +56,13 @@ if (! function_exists('request')) {
     }
 }
 
-if (! function_exists('logger')) {
+if (! function_exists('logger_rfm')) {
     /**
      * Return logger singleton instance
      *
      * @return \RFM\Logger
      */
-    function logger()
+    function logger_rfm()
     {
         return app('logger');
     }
