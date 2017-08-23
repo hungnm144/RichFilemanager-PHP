@@ -170,10 +170,10 @@ class Application extends Container {
 
             // update logger configuration
             if (config("{$name}.logger.enabled") === true) {
-                logger()->enabled = true;
+                logger_rfm()->enabled = true;
             }
             if (is_string(config("{$name}.logger.file"))) {
-                logger()->file = config("{$name}.logger.file");
+                logger_rfm()->file = config("{$name}.logger.file");
             }
         }
     }
@@ -350,7 +350,7 @@ class Application extends Container {
         if ($arguments) {
             $log_message .= ', arguments: ' . json_encode($arguments);
         }
-        logger()->log($log_message);
+        logger_rfm()->log($log_message);
 
         if(request()->isXmlHttpRequest()) {
             $error_object = [
